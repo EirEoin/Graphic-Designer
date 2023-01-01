@@ -1,5 +1,3 @@
-
-
 from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )
@@ -191,4 +189,3 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
-    
