@@ -5,4 +5,5 @@ class CheckoutConfig(AppConfig):
     name = 'checkout'
 
     def ready(self):
-        import checkout.
+        import checkout.signals
+

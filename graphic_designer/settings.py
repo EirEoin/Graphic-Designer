@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'bag',
     'products',
     'checkout',
+    
+ModuleNotFoundError: No module named 'profiles'
 
     # Other
     'crispy_forms',
