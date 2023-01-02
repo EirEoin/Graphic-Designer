@@ -29,7 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-v7jge6m0g64.ws-eu80.gitpod.io', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-pjfeywarnm2.ws-eu80.gitpod.io/', 'https://*.127.0.0.1']
 
 # Application definition
 
