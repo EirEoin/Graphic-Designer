@@ -9,8 +9,8 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
 import os
+import dj_database_url
 
 from pathlib import Path
 
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-7ga#ch&o80ku)7=j%#69u#&cyo4h*rpri!8y*b!cfn2=@hwuw*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['graphic_designer.heroku.app.com','localhost']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-pjfeywarnm2.ws-eu80.gitpod.io/', 'https://*.127.0.0.1']
 
@@ -121,14 +121,19 @@ WSGI_APPLICATION = 'graphic_designer.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
