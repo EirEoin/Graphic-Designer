@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" href="work/static/css/work.css">
+    <script src="work.js"></script>
+  </head>
+  
+
+<body>
+
+<h2 style="text-align:center">Gallery of Work</h2>
+
+<div class="container">¸
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="Rinse_JohnDaly.jpg" height="50%" width="100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="Rinse_Shampain.jpg" height="50%" width="100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="Guiness_Skeleton.jpg" height="50%" width="100%">
+  </div>
+   
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="Rinse_Crabs.jpg" height="50%" width="100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="Rinse_Ducks.jpg" height="50%" width="100%">
+  </div>
+   
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="Skeleton_Feet.jpg" height="50%" width="100%">
+  </div>
+   
+   
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Rinse_JohnDaly.jpg" style="width:100%" onclick="currentSlide(1)" alt="Shampain B2B John Daly Rinse.fm">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Rinse_Shampain.jpg" style="width:100%" onclick="currentSlide(2)" alt="Shampain Rinse.fm">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Guiness_Skeleton.jpg" style="width:100%" onclick="currentSlide(3)" alt="Skeleton Holding a Guinness">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Rinse_Crabs.jpg" style="width:100%" onclick="currentSlide(4)" alt="Shampain B2B Small Crab Rinse.fm">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Rinse_Ducks.jpg" style="width:100%" onclick="currentSlide(5)" alt="Shampain B2B Gratitude Cowgirl Rinse.fm">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="Skeleton_Feet.jpg" style="width:100%" onclick="currentSlide(6)" alt="Skeleton Feet">
+    </div>
+  </div>
+</div>
+   
+</body>
+</html>
