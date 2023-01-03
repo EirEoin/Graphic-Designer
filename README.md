@@ -43,7 +43,27 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 
 
 
-# Testing 
+# SEO Implementation
+
+When using SEO on this project i learned a few things. I learned The importance of keyword research: Keyword research is the process of identifying the words and phrases that people use when searching for products or services related to your business. By understanding these keywords, you can create content and optimize your website to rank higher in search results for relevant queries.
+The role of on-page optimization: On-page optimization refers to the process of optimizing the content and structure of your website to make it more search engine friendly.
+The value of high-quality content: High-quality content is an important factor in SEO, as search engines favor websites that provide valuable and relevant information to users. By creating high-quality content that is relevant to your target audience, you can improve your search engine rankings and attract more visitors to your website.
+
+# E-Commerce Approach
+
+Our B2C e-commerce approach to our graphic design webstore focuses on creating a user-friendly and visually appealing platform that is easy for customers to browse and purchase design services from. This would involve designing an intuitive website that showcases the different design services available, such as branding, marketing materials, and packaging, as well as providing clear and concise information about each service's features, benefits, and pricing.
+
+Another important aspect of a B2C e-commerce graphic design webstore would be to create a strong online presence through marketing and social media. This could include creating engaging content, such as blog posts, tutorials, or case studies, and using social media platforms to reach a wider audience and drive traffic to the store. We focus on creating a user-friendly and visually appealing platform that makes it easy for customers to find and purchase the design services they need, while also building a strong online presence through marketing and social media efforts.
+You can follow Sketchy Feen on Instagram and Facebook.
+
+[My Facebook Page](https://www.facebook.com/profile.php?id=100088561165088)
+
+[My Instagram Page](https://www.instagram.com/sketchy.feen/)
+
+@SketchyFeen on instagram
+
+A feature we may have in the future would be to make the purchasing process as seamless as possible. This would involve providing multiple payment options, such as credit card, PayPal, or bank transfer, and offering fast and secure checkout. Additionally, it would be important to offer good customer service, including fast and helpful support for any questions or issues that may arise during the purchasing process.
+
 
 
 # Validator Testing
@@ -59,15 +79,6 @@ Another challenge I have faced while working with Heroku is dealing with error m
 One issue with Heroku that has caused some difficulties for me in the past is the fact that it is no longer free for hobby projects. While it is still possible to use Heroku for free for small projects, you may need to upgrade to a paid plan if you want to use more advanced features or scale your application. This can be a challenge if you are working on a budget or don't have the resources to invest in a paid hosting platform.
 
 Overall, working with Heroku can be a rewarding experience, but it can also present some challenges, especially if you are new to the platform or working with unfamiliar technologies. By being prepared and willing to troubleshoot issues as they arise, you can successfully deploy your projects to Heroku and take advantage of its powerful features.
-
-# E-Commerce Approach
-
-Our B2C e-commerce approach to our graphic design webstore focuses on creating a user-friendly and visually appealing platform that is easy for customers to browse and purchase design services from. This would involve designing an intuitive website that showcases the different design services available, such as branding, marketing materials, and packaging, as well as providing clear and concise information about each service's features, benefits, and pricing.
-
-Another important aspect of a B2C e-commerce graphic design webstore would be to create a strong online presence through marketing and social media. This could include creating engaging content, such as blog posts, tutorials, or case studies, and using social media platforms to reach a wider audience and drive traffic to the store. We focus on creating a user-friendly and visually appealing platform that makes it easy for customers to find and purchase the design services they need, while also building a strong online presence through marketing and social media efforts.
-You can follow Sketchy Feen on Instagram and Facebook
-
-A feature we may have in the future would be to make the purchasing process as seamless as possible. This would involve providing multiple payment options, such as credit card, PayPal, or bank transfer, and offering fast and secure checkout. Additionally, it would be important to offer good customer service, including fast and helpful support for any questions or issues that may arise during the purchasing process.
 
 
 # Credits 
