@@ -60,7 +60,7 @@ You can follow Sketchy Feen on Instagram and Facebook.
 
 [My Instagram Page](https://www.instagram.com/sketchy.feen/)
 
-@SketchyFeen on instagram
+
 
 A feature we may have in the future would be to make the purchasing process as seamless as possible. This would involve providing multiple payment options, such as credit card, PayPal, or bank transfer, and offering fast and secure checkout. Additionally, it would be important to offer good customer service, including fast and helpful support for any questions or issues that may arise during the purchasing process.
 
@@ -82,6 +82,9 @@ Overall, working with Heroku can be a rewarding experience, but it can also pres
 
 
 # Credits 
+
+I'd like to give a special thanks to the coding institute E-Commerce boutique ADO tutorial for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition.
+Online forms like W3 schools helped alot too
 
 ## Content
 ## Media 
