@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-7ga#ch&o80ku)7=j%#69u#&cyo4h*rpri!8y*b!cfn2=@hwuw*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['graphic_designer.heroku.app.com','localhost']
+ALLOWED_HOSTS = ['https://sketchydesigns.herokuapp.com/','localhost']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-pjfeywarnm2.ws-eu80.gitpod.io/', 'https://*.127.0.0.1']
 
