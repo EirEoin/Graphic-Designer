@@ -140,7 +140,7 @@ a.category-badge > span.badge:hover {
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
     width:600px;
-    color: white
+    color: white;
 }
 
 /* -------------------------------- Media Queries */
