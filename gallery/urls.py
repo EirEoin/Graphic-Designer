@@ -6,6 +6,5 @@ from . import views
 
 urlpatterns = [
     path('work/', views.work, name='work'),
-    path('', include('gallery.urls')),
     # other URL patterns ...
 ]
