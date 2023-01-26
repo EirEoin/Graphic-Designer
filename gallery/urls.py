@@ -5,6 +5,6 @@ from django.conf.urls.static import static
 from . import views
 
 urlpatterns = [
-    path('work/', views.work, name='work'),
+    path('', views.work, name='work'),
     # other URL patterns ...
 ]

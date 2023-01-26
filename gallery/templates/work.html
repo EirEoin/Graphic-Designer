@@ -11,8 +11,7 @@
 {% endblock %}
 
 {% block content %}
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <head>
         <link rel="stylesheet" href="{% static 'css/work.css' %}">
         <script src="{% static 'js/work.js' %}"></script>
@@ -24,32 +23,32 @@
         <div class="container">
             <div class="mySlides">
                 <div class="numbertext">1 / 6</div>
-                <img src="{% static 'work/img/Rinse_JohnDaly.jpg' %}" height="50%" width="100%">
+                <img src="/media/TooNoo_Album.JPG" height="50%" width="100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2 / 6</div>
-                <img src="{% static 'work/img/Rinse_Shampain.jpg' %}" height="50%" width="100%">
+                <img src="/media/Rinse_Shampain.JPG" height="50%" width="100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3 / 6</div>
-                <img src="{% static 'work/img/Guiness_Skeleton.jpg' %}" height="50%" width="100%">
+                <img src="/media/" height="50%" width="100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4 / 6</div>
-                <img src="{% static 'work/img/Rinse_Crabs.jpg' %}" height="50%" width="100%">
+                <img src="/media/Rinse_Crabs.JPG" height="50%" width="100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">5 / 6</div>
-                <img src="{% static 'work/img/Rinse_Ducks.jpg' %}" height="50%" width="100%">
+                <img src="/media/Rinse_Ducks.jpg" height="50%" width="100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6 / 6</div>
-                <img src="{% static 'work/img/Skeleton_Feet.jpg' %}" height="50%" width="100%">
+                <img src="/media/Skeleton_feet.JPG" height="50%" width="100%">
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -62,3 +61,4 @@
             <div class="row">
                 <div class="column">
                     <img class="demo cursor" src="{% static 'work/img/Rinse_JohnDaly.jpg' %}" style="width:100%" onclick="currentSlide(1)" alt="Shamp">
+                    {% endblock %}
