@@ -1,1 +1,1 @@
-web: gunicorn sketchydesigns.wsgi:application
+web: gunicorn graphic_designer.wsgi:application
