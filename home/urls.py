@@ -3,6 +3,5 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('work/', views.work, name='work'),
-    path('', include('gallery.urls')),
+    path('', views.index, name='home')
 ]
