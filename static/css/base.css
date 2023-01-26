@@ -65,6 +65,10 @@ body {
     color: #000 !important;
 }
 
+.text-white {
+    color: #fff
+}
+
 .border-black {
     border: 1px solid black !important;
 }
@@ -131,11 +135,12 @@ a.category-badge > span.badge:hover {
 }
 
 /* -- MailChimp -- */
+
 #mc_embed_signup {
-    background:#fff;
     clear:left;
     font:14px Helvetica,Arial,sans-serif;
     width:600px;
+    color: white
 }
 
 /* -------------------------------- Media Queries */
@@ -172,7 +177,7 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 
-    .display-4.logo-font.text-black {
+    .display-4.logo-font.text-white {
         font-size: 2rem;
     }
 
