@@ -6,5 +6,6 @@ from . import views
 
 urlpatterns = [
     path('', views.work, name='work'),
+    path('previous-work/', views.previous_work, name='previous_work'),
     # other URL patterns ...
 ]

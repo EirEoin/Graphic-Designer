@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+{% for work_item in work_items %}
+  <h2>{{ work_item.title }}</h2>
+  <p>{{ work_item.description }}</p>
+{% endfor %}
+
+{% endblock %}
