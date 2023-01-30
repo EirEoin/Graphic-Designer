@@ -27,12 +27,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG =  'DEV' in os.environ
 
 
 ALLOWED_HOSTS = ['sketchydesigns.herokuapp.com', 'localhost']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-pjfeywarnm2.ws-eu80.gitpod.io/', 'https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-s3qn3bwozba.ws-eu84.gitpod.io', 'https://*.127.0.0.1']
 
 # Application definition
 
