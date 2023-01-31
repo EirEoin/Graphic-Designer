@@ -19,6 +19,9 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 
 Our Graphic Design webstore features a clean and modern design that makes it easy for customers to browse and purchase our design services. The home page provides an overview of what we offer, including our specialties and process, as well as a featured work section to showcase some of our best design projects.
 
+It include a work section where you can view all previous work Done by Sketchy Designs.
+It also features a products page where you can order products from Sketchy Designs.
+
 ## Gallery 
 The gallery page is a showcase of our portfolio, where customers can view a variety of designs across different categories, such as branding, marketing materials, and packaging. Each design in the gallery includes a brief description and a sample image, so customers can get a sense of the quality and style of our work.
 
@@ -83,8 +86,6 @@ Overall, working with Heroku can be a rewarding experience, but it can also pres
 
 # Credits 
 
-I'd like to give a special thanks to the coding institute E-Commerce boutique ADO tutorial for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition.
+I'd like to give a special thanks to the coding institute E-Commerce boutique ADO tutorial for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition. I'd also like to thank everyone at the coding-institute for helping me along the away!
 Online forms like W3 schools helped alot too
 
-## Content
-## Media 
