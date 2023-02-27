@@ -202,6 +202,6 @@ else:
     EMAIL_USE_TLS = True
     EMAIL_PORT = 587
     EMAIL_HOST = 'smtp.gmail.com'
-    EMAIL_HOST_USER = 'sketchyactive@gmail.com'
-    EMAIL_HOST_PASSWORD = 'mdqrfywlkfwfxkml'
+    EMAIL_HOST_USER = os.environ.get('sketchyactive@gmail.com')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
