@@ -34,7 +34,6 @@ ALLOWED_HOSTS = ['sketchydesigns.herokuapp.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://8000-eireoin-graphicdesigner-x5te3k7chi0.ws-eu89.gitpod.io', 'https://*.127.0.0.1']
 
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -85,7 +84,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
