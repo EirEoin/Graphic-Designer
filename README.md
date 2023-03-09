@@ -1,10 +1,9 @@
 # Sketchy Designs
 
 
-Welcome to my Graphic Design online store, Sketchy Designs! 
-We are a team of creative professionals dedicated to providing high-quality design services to individuals and businesses (Just Me). Sketchy Designs offers a wide range of design options, from logo and branding design to marketing materials and website design. We pride ourselves on our ability to understand our customers' unique needs and deliver custom solutions that exceed their expectations. Our team of talented designers has the skills and experience to bring your vision to life, whether you are a small start-up or a well-established company. Thank you for considering us for your design needs. We look forward to working with you!
+Welcome to my Graphic Design online store, Sketchy Designs! It is a fictional team of creative professionals dedicated to providing high-quality design services to individuals and businesses. We are also B2C designed and implemented with Django, Python, HTML, and CSS. It aims to provide an easy-to-use interface where customers can browse all our items. The site offers account sign up and once signed in, users can save an address to their profile for easy and convenient checkout. You can also check on previous order history if you have any once signed in. We also offer an email sign up for news on the future releases. It also has a Gallery of previous work to flick through and get an idea of what Sketchy Designs is about. 
 
-In the past, we have had the opportunity to work with some of the most famous artists in the music industry. Our team has collaborated with Grammy award-winning artists to create album covers, merchandise designs, and marketing materials. We have also worked with renowned music festivals to design promotional materials and stage designs. It has been a pleasure and an honor to be a part of these projects and to contribute to the success of these talented artists. 
+ Sketchy Designs offers a wide range of design options, from logo and branding design to marketing materials and website design. We pride ourselves on our ability to understand our customers' unique needs and deliver custom solutions that exceed their expectations. Our team of talented designers has the skills and experience to bring your vision to life, whether you are a small start-up or a well-established company. Thank you for considering us for your design needs. We look forward to working with you!
 
 I have always had a passion for graphic design and music, and I love the way that they intersect and influence each other. As a designer, I am constantly inspired by the creativity and artistry of the music industry, and I enjoy using my skills to help artists and music festivals bring their visions to life. I also believe in the power of music to bring people together and to strengthen communities. Through my work, I have had the opportunity to connect with people from all walks of life and to use my design skills to make a positive impact on their communities. I love the cultural ties that knit together the worlds of graphic design and music, and I am grateful to be able to contribute to this vibrant and dynamic community. Overall, I am passionate about my work because it allows me to use my creative skills to make a difference in the world and to connect with others through art and design.
 
@@ -15,16 +14,78 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 
 
 
+# UX
+
+## Goals
+ 
+### User goals
+
+* Give the user an easy to navigate E-Commerce store
+* Allow customers the option to purchase items directly from the site
+* Give users a Gallery of previous works
+* Give the user additional places to view more work and items through social media
+* Allow the visitor to be able to create and account, add items to their basket and checkout
+
+
+## User stories 
+
+### User
+
+* As a first time customer I would like to create an account and have my information saved for again
+* As an Art Collector I want to be able to see artwork online so that I can purchase my favourite artwork quickly and effectively
+* As an up and coming DJ I want to purchase and create custom artwork for my music so that I can build my brand and have a unique style 
+* As a customer I would like to view and add products to the cart
+* As a customer I would like to securely pay for my items and receive tracking information after an order is placed
+* As a customer I would like to browse an online store with ease to purchase anything I might fancy
+
+### Admin
+* As a graphic designer I want to build an online shop so that I can sell my work online and earn a living
+* As an Admin i want to be able to add products easily
+
+
+
+## Design
+
+
+### Fonts 
+
+I chose to use Lato as the font for Sketchy Designs for a few reasons. Firstly, Lato is a clean and modern sans-serif font that is easy to read and looks great on both desktop and mobile devices. It has a balanced and neutral appearance that makes it versatile enough to use across different sections of our webstore, from headings to body text. Overall, I believe that Lato's combination of readability, versatility, and accessibility make it an excellent choice for our e-commerce webstore.
+
+### Colours 
+
+I chose to use a simple black and white color scheme for our webstore because it provides a clean and timeless backdrop for our products and artwork. This color scheme is particularly well-suited for my project because the background is composed of previous artwork and as for say future goals, it will hopefully keep changing as new art is added in the future. By using black and white, we are able to create a neutral and versatile background that complements our colorful products and artwork perfectly. 
+
+This allows our products to stand out and take center stage, without competing with a busy or distracting background.
+
+It is easy to read and visually appealing on both desktop and mobile devices, ensuring that our webstore is accessible and user-friendly for all customers.
+
+
+# Wireframes
+
+
+
 # Features 
 
-Our Graphic Design webstore features a clean and modern design that makes it easy for customers to browse and purchase our design services. The home page provides an overview of what we offer, including our specialties and process, as well as a featured work section to showcase some of our best design projects.
+Sketchy Designs features a clean and modern design that makes it easy for customers to browse and purchase our design services. The home page provides an overview of what we offer, including our specialties and process, as well as a featured work section to showcase some of our best design projects.
 
-It include a work section where you can view all previous work Done by Sketchy Designs.
-It also features a products page where you can order products from Sketchy Designs.
+## Home Page
+
+* The home page features a clean and simple design, with a focus on showcasing our latest products and artwork.
+* A Mailchimp email signup form is prominently displayed on the home page, allowing visitors to sign up for updates and be notified about future sales, releases, or holiday discounts.
+
+## Products Page
+
+* The products page allows customers to browse our collection of artwork and products, with high-quality images and detailed descriptions of each item.
+* Customers can securely purchase products using Stripe payment processing, ensuring a seamless and reliable checkout experience.
 
 ## Gallery 
-The gallery page is a showcase of our portfolio, where customers can view a variety of designs across different categories, such as branding, marketing materials, and packaging. Each design in the gallery includes a brief description and a sample image, so customers can get a sense of the quality and style of our work.
 
+* The gallery page features a collection of our most recent projects, allowing visitors to flick through and get inspired by our artwork and designs.
+
+## User Accounts
+
+* Visitors can create an account on the website, which will remember their details for future visits and allow them to easily review their order history.
+* Customers can also save items to their cart or wish list for future reference.
 
 ## Work 
 The work page is where customers can learn more about our process and how we approach each design project. This includes information on our design process, what's included in our packages, and our pricing.
