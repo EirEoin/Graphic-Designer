@@ -127,6 +127,30 @@ I am particularly excited about the near future, as I have a number of exciting 
 I am thrilled with the direction my career as a graphic designer is heading and am looking forward to all the opportunities and challenges that the future holds. So, I am very excited about it.
 
 
+# Technology Used
+
+## Languages
+
+* HTML
+* CSS 
+* Javscript
+* python
+
+## Frameworks
+
+* Django 
+* Bootstrap
+
+## Libraries
+
+* Stripe Payments
+
+## Tools
+
+* AWS
+* Github 
+* Heroku
+* ElephantSQL
 
 # SEO Implementation
 
