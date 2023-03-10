@@ -72,7 +72,7 @@ It is easy to read and visually appealing on both desktop and mobile devices, en
 
 # Wireframes
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Home.png){:target="_blank"}
+[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/home2.png)
 [![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Gallery.png){:target="_blank"}
 [![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Products.png){:target="_blank"}
 
