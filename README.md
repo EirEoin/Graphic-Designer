@@ -72,17 +72,17 @@ It is easy to read and visually appealing on both desktop and mobile devices, en
 
 # Wireframes
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/home.png)
+[![Sketchy HomePage](static/images/wireframe.png)](static/images/design_thinking/home.png)
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/gallery.png)
+[![Sketchy Gallery](static/images/wireframe.png)](static/images/design_thinking/gallery.png)
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/products.png)
+[![Sketchy Products](static/images/wireframe.png)](static/images/design_thinking/products.png)
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/productspage.png)
+[![Sketchy Product Page](static/images/wireframe.png)](static/images/design_thinking/productspage.png)
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/signup.png)
+[![Sketchy Designs Signup](static/images/wireframe.png)](static/images/design_thinking/signup.png)
 
-[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/shoppingbag.png)
+[![Sketchy Designs Shopping Bag](static/images/wireframe.png)](static/images/design_thinking/shoppingbag.png)
 
 
 # Features 
