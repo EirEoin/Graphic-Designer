@@ -20,12 +20,22 @@ I am thrilled with the direction my career as a graphic designer is heading and 
  
 ### User goals
 
-* Give the user an easy to navigate E-Commerce store
-* Allow customers the option to purchase items directly from the site
-* Give users a Gallery of previous works
-* Give the user additional places to view more work and items through social media
-* Allow the visitor to be able to create and account, add items to their basket and checkout
+* As a User I want to browse and have the option to purchase items directly from the site
+* As a User I want to view a Gallery of previous works
+* As a User I want more way to view items through social media platforms
+* As a User I want to be able to create and account, add items to my basket and checkout
 
+### Admin Goals
+
+* As an Admin I want to be able to add to my Gallery
+* Admins are able to add products easily
+* As an Admin I also want to manage orders easily and securely
+
+### Developer Goals
+
+* As a Developer I want to produce and maintain and develop a high performing, secure webstore 
+* As a Developer I aim to make the checkout process as streamlined and user-friendly as possible
+* As a Developer I want to Implement Customer feedback in some way to continually improve the User experience
 
 ## User stories 
 
@@ -62,6 +72,9 @@ It is easy to read and visually appealing on both desktop and mobile devices, en
 
 # Wireframes
 
+[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Home.png){:target="_blank"}
+[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Gallery.png){:target="_blank"}
+[![Sketchy Designs Wireframe](static/images/wireframe.png)](static/images/design_thinking/Products.png){:target="_blank"}
 
 
 # Features 
