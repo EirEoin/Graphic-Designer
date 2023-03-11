@@ -173,7 +173,7 @@ You can follow Sketchy Feen on Instagram and Facebook.
 
 A feature we may have in the future would be to make the purchasing process as seamless as possible. This would involve providing multiple payment options, such as credit card, PayPal, or bank transfer, and offering fast and secure checkout. Additionally, it would be important to offer good customer service, including fast and helpful support for any questions or issues that may arise during the purchasing process.
 
-
+# E-Commerce Business Model
 
 # Validator Testing
 
