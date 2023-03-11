@@ -11,5 +11,4 @@ class ClientsAdmin(admin.ModelAdmin):
     )
 
 
-
-    admin.site.register(Clients, ClientsAdmin)
+admin.site.register(Clients, ClientsAdmin)
