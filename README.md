@@ -181,6 +181,17 @@ As a developer, I know how important it is to run tests and ensure that my HTML,
 
 # Deployment
 
+To deploy this site locally using VSCode IDE, you can use Heroku and Amazon S3 for hosting of static and media files. This allows the site to deplo automatically with commits to the master branch, and the code can also be run locally. Before starting, make sure you havethe following requirements installed: VScode IDE, Python v3.8 documentation, PIP package installer, an Stripe payment infastructure. 
+
+To get started, clone a copy of the repository by clicking on the 'Code' button at the top of the page and selecting 'Download Zip'. Once downloaded, extract the files to your desired folder. Alternatively, if you have git installed on your client, you can run the following command from the terminal:
+
+* git clone https://github.com/EirEoin/Graphic_Designer
+
+Open up your local IDE, and ideally, create a virtual environment to allow all packages to be kept within the project. You can install this using the following command:
+
+pip install pipenv
+
+
 Deploying a project to Heroku can sometimes be challenging, especially if you are working with a new database or technology that you are not familiar with. One of the main challenges I have encountered while working with Heroku is getting the database set up and configured correctly. This can involve setting up environment variables, creating tables and schemas, and ensuring that the database is properly integrated with the rest of the application.
 
 Another challenge I have faced while working with Heroku is dealing with error messages and debugging issues that can arise during the deployment process. This can be especially frustrating if the error messages are unclear or not specific enough to pinpoint the source of the problem. In these cases, it can be helpful to check the logs, do some research online, or ask for help from friends or online communities.
