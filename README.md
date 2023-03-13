@@ -102,15 +102,21 @@ Sketchy Designs features a clean and modern design that makes it easy for custom
 ## Gallery 
 
 * The gallery page features a collection of our most recent projects, allowing visitors to flick through and get inspired by our artwork and designs.
+Browse our gallery to see some of the projects we have completed in the past, and feel free to get in touch if you would like to discuss a potential collaboration.
+
+## Clients 
+Sketchy Designs prides itself on collaborating with a wide range of clients to bring their creative visions to life so we gave it a Clients page. Our Clients section showcases some of our recent collaborations, highlighting the diversity of our portfolio.
+this section can possibly showcase Collaborations to look forward to in the future too.
+
+## Contact 
+
+Our contact page provides an easy way for potential clients or customers to get in touch with us. It includes a simple contact form where users can enter their name, email address, and a message. Users can also find our business address and phone number on the page.
+In addition to general inquiries, the contact page also allows users to pitch ideas, make offers, or request quotes for specific projects. We encourage anyone interested in collaborating with us to reach out and discuss their ideas.
 
 ## User Accounts
 
 * Visitors can create an account on the website, which will remember their details for future visits and allow them to easily review their order history.
 * Customers can also save items to their cart or wish list for future reference.
-
-## Work 
-The work page is where customers can learn more about our process and how we approach each design project. This includes information on our design process, what's included in our packages, and our pricing.
-Finally, the contact form allows customers to easily get in touch with us to discuss their design needs and request a quote. Customers can provide their contact information and a brief description of their project, and one of our team members will be in touch to discuss their design needs further.
 
 ## Account & Order tracking
 Sketchy Designs offers a user registration feature that allows customers to create a personal account on our platform. This allows them to easily track their orders, view their purchase history, and access their account information. To register, customers simply need to provide their email address and create a password.
@@ -119,6 +125,9 @@ Once they have registered, customers can sign in to their account using their em
 Our track orders feature allows customers to easily stay up-to-date on the progress of their design projects. Customers can view the status of their orders, including whether they are in the design phase, review phase, or have been completed. They can also view any comments or feedback left by our team, as well as any attachments or files related to their project.
 
 
+
+
+Sketchy Designs
 Overall, our user registration, sign in, and track orders features provide customers with a convenient and easy-to-use platform for managing their design projects with our team.
 I am extremely happy with the growth and progress I have made over the years. I have had the opportunity to work with a wide range of clients, from small businesses to larger corporations, and have honed my skills and developed my style along the way.
 
