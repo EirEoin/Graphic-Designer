@@ -21,6 +21,18 @@ def add_to_bag(request, item_id):
     size = None
     if 'product_size' in request.POST:
         size = request.POST['product_size']
+
+    if quantity < 1:
+        quantity = 1
+        messages.warning(request, "Quantity cannot be less than 1.")
+    elif quantity > 99:
+        quantity = 99
+        messages.warning(request, "Quantity cannot be more than 99.")
+
+    bag = request.session.get('bag', {})
+    
+    if 'product_size' in request.POST:
+        size = request.POST['product_size']
     bag = request.session.get('bag', {})
 
     if size:
