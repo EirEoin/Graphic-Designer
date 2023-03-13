@@ -134,6 +134,57 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
+/* Contact Form */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  }
+  
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border: 2px solid #66afe9;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #66afe9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
 /* -- MailChimp -- */
 
 #mc_embed_signup {
