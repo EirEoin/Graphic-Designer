@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Clients</h1>
+<ul>
+{% for client in clients %}
+    <li>
+        <h2>{{ client.name }}</h2>
+        <img src="{{ client.image.url }}" alt="{{ client.name }}">
+        <p>{{ client.description }}</p>
+        <p>Location: {{ client.location }}</p>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}
