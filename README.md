@@ -189,20 +189,99 @@ To get started, clone a copy of the repository by clicking on the 'Code' button 
 
 Open up your local IDE, and ideally, create a virtual environment to allow all packages to be kept within the project. You can install this using the following command:
 
-pip install pipenv
+* pip install pipenv
+
+In your root dir, create a new folder called '.venv' (ensure you have the .) To activate the virtual environment, navigate to the directory and run activate.bat. 
+
+* [folderinstalled]\scripts\activate\activate.bat
+
+If you're using Linux or Mac use the below command
+
+* source .venv/bin/activate
+
+Next we need to install all modules required by the project to run, use the following code 
+
+* pipenv install -r requirements.txt
+
+Create a new folder within the root dir called env.py. Within this file add the following lines to set up the environmental variables.
+
+import os
+
+os.environ["SECRET_KEY"] = "[Your Secret Key]"
+os.environ["DEV"] = "1"
+os.environ["HOSTNAME"] = "0.0.0.0"
+os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
+os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
+os.environ["DATABASE_URL"] = "[Your DB URL]"
 
 
-Deploying a project to Heroku can sometimes be challenging, especially if you are working with a new database or technology that you are not familiar with. One of the main challenges I have encountered while working with Heroku is getting the database set up and configured correctly. This can involve setting up environment variables, creating tables and schemas, and ensuring that the database is properly integrated with the rest of the application.
+## Database setup 
 
-Another challenge I have faced while working with Heroku is dealing with error messages and debugging issues that can arise during the deployment process. This can be especially frustrating if the error messages are unclear or not specific enough to pinpoint the source of the problem. In these cases, it can be helpful to check the logs, do some research online, or ask for help from friends or online communities.
+To set up your database you first need to run this command.
 
-One issue with Heroku that has caused some difficulties for me in the past is the fact that it is no longer free for hobby projects. While it is still possible to use Heroku for free for small projects, you may need to upgrade to a paid plan if you want to use more advanced features or scale your application. This can be a challenge if you are working on a budget or don't have the resources to invest in a paid hosting platform.
+* python manage.py migrate
+
+You're going to need a superuser to access the admin panel which you can creat using this command in the terminal.
+
+* python manage.py createsuperuser
+
+You should be able to run the server then using.
+
+* python3 manage.py runserver 
+
+If everything has been correctly configure you should not get a message giving you a link to your locally hosted site.
+Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database
+
+* python manage.py loaddata 
+
+# Deploying to Heroku 
+
+To run this application in an online environment you will need to deploy the code to Heroku. Before moving on to this section please ensure you have followed the instructions for local deployment and this has been successful.
+
+Either create an account at Heroku or log in to your account
+Set up a new app under a unique name.
+In the resources section, in the addons field type the below command and select the free cost option.
+
+* heroku Postgres
+
+Go to your settings tab and in the settings tab select Reveal Config Vars and copy the pre populated DATABASE_URL into your settings.py file in your project.
+in the Config Vars in Heroku you will need to populate with the following keys
+
+| Variable | Value |
+| --- | --- |
+| AWS_ACCESS_KEY_ID | [your value] |
+| AWS_SECRET_ACCESS_KEY | [your value] |
+| SECRET_KEY | [your value] |
+| STRIPE_PUBLIC_KEY | [your value] |
+| STRIPE_SECRET_KEY | [your value] |
+| USE_AWS | [your value] |
+| DATABASE_URL | [your value] |
+
+
+
+
+Now this has been configured you will now migrate the local database to the cloud database using the migrate command as below
+
+* python manage.py migrate
+
+- Next you will need to create a super user and populate the database as described in the database set up section.
+- when the migrations and data has been loaded, in your Heroku dashboard select Deploy tab.
+- From here select the Github option and connect the repository from GitHub and select the branch (Master) to deploy from.
+- It is advised to select automatic deployment to ensure for each push to Github the hosted version is up to date.
+- When this has deployed select open app from the top bar of the Heroku App.
 
 Overall, working with Heroku can be a rewarding experience, but it can also present some challenges, especially if you are new to the platform or working with unfamiliar technologies. By being prepared and willing to troubleshoot issues as they arise, you can successfully deploy your projects to Heroku and take advantage of its powerful features.
 
 
 # Credits 
 
+## Media 
+
+All images were made by myself and very few were made by DALLE OpenAi.
+All images & content used for this site are for educational purposes only.
+
+## Acknowledgements 
+
 I'd like to give a special thanks to the coding institute E-Commerce boutique ADO tutorial for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition. I'd also like to thank everyone at the coding-institute for helping me along the away!
-Online forms like W3 schools helped alot too
+Online forms like W3 schools helped alot too. 
 
