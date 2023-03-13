@@ -30,7 +30,7 @@ def add_to_bag(request, item_id):
         messages.warning(request, "Quantity cannot be more than 99.")
 
     bag = request.session.get('bag', {})
-    
+
     if 'product_size' in request.POST:
         size = request.POST['product_size']
     bag = request.session.get('bag', {})
