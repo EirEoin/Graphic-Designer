@@ -161,6 +161,8 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 * Heroku
 * ElephantSQL
 
+# Agile Approach
+
 # SEO Implementation
 
 When using SEO on this project i learned a few things. I learned The importance of keyword research: Keyword research is the process of identifying the words and phrases that people use when searching for products or services related to your business. By understanding these keywords, you can create content and optimize your website to rank higher in search results for relevant queries.
@@ -261,10 +263,12 @@ Test 🥽
 
 Result 📝
 * I was able to select items at random and add them to the basket without signing in. I then proceeded to checkout and completed the payment process using a valid payment method. The order was confirmed and added to the database correctly.
-[![Succesful Checkout](static/images/wireframe.png)](static/images/test/Success-Shaq-Payment.png)
+
 
 Verdict ✅
 * This test passed without any issues, indicating that users can successfully checkout without creating an account.
+
+[[Succesful Non-User Checkout]](static/images/tests/Non-user-checkout.png)
 
 ### Without an Account
 
@@ -280,14 +284,32 @@ Result 📝
 Verdict ✅
 *  This test was completed without bugs
 
+* [[Succesful Checkout]](static/images/tests/Shaq-Order.png)
+* [[Succesful Webhooks]](static/images/tests/Success-Shaq-Payment.png)
+* [[More Succesful Webhooks]](static/images/tests/WH-Tests.png)
+
+### Responsiveness
+
+Idea 🧠
+*  To test the responsiveness of the site, the page was loaded on local mobile devices to check design choice
+
+Test 🥽
+*  This test was carried out by loading the site and navigating to each page and adding and completing an order with more than one item
+
+Result 📝
+* Each page loaded and displayed correctly.
+
+Verdict ✅
+*  This test was completed without bugs
+
 
 ## Validator Testing
 
 As a developer, I know how important it is to run tests and ensure that my HTML, CSS, and JavaScript code is error-free and meets industry standards. That's why I always make sure to run my code through validators before launching a project. Validators are tools that check the syntax and structure of my code to make sure it is correct and follows best practices. For HTML and CSS, I use the W3C Validator, which checks my code against the latest standards and guidelines. For JavaScript, I use the JSLint and JSHint validators, which help me catch common mistakes and ensure that my code is clean and efficient. By running my code through these validators, I can be confident that my projects will be reliable and well-built, and that they will work seamlessly on any device or browser. Overall, running tests and using validators is an essential step in the development process and helps me deliver high-quality projects to my clients.
 
-[![Sketchy HTML Validation](static/images/wireframe.png)](static/images/Validation/HTML-Valid.png)
-[![Sketchy Base CSS Validation](static/images/wireframe.png)](static/images/Validation/Base-css-valid.png)
-[![Sketchy Profile CSS Validation](static/images/wireframe.png)](static/images/Validation/CSS-Valid-prof.png)
+[![Sketchy HTML Validation]](static/images/Validation/HTML-Valid.png)
+[![Sketchy Base CSS Validation]](static/images/Validation/Base-css-valid.png)
+[![Sketchy Profile CSS Validation]](static/images/Validation/CSS-Valid-prof.png)
 
 # Deployment
 
