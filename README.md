@@ -163,6 +163,12 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 
 # Agile Approach
 
+Approaching this project, Sketchy Designs, there was a lot to. It was best I broke breaking it down into smaller manageable tasks and working on them incrementally. I created a project board with user stories attached to the GitHub repository to help keep track of the tasks and ensure that I was on track to meet the project goals. 
+This approach allowed me to adapt to changes and make adjustments as needed, ensuring that the project was delivered on time and with the desired functionality. With this approach, I was able to prioritize what's important at different times to deliver a high-quality product that met the needs of the user. As this project was being built I even found myself adding to the project board and getting inspired with ideas on how this project could develop. 
+
+* [[Agile Process]](static/images/Agile/Agile-Process.png)
+* [[Agile Project Board]](static/images/Agile/Agile-Project-Board.png)
+
 # SEO Implementation
 
 When using SEO on this project i learned a few things. I learned The importance of keyword research: Keyword research is the process of identifying the words and phrases that people use when searching for products or services related to your business. By understanding these keywords, you can create content and optimize your website to rank higher in search results for relevant queries.
@@ -248,7 +254,6 @@ Idea 🧠
 Test 🥽
 * To test the Clients page, I navigated to the page and checked if all past and upcoming collaborations were displayed correctly. I also checked if the page was responsive and user-friendly on different devices.
 
-
 Result 📝
 * All past and upcoming collaborations were displayed correctly, and the page was responsive and user-friendly on different devices. The collaborations were sorted and displayed in a clear and organized manner.
 
@@ -263,7 +268,6 @@ Test 🥽
 
 Result 📝
 * I was able to select items at random and add them to the basket without signing in. I then proceeded to checkout and completed the payment process using a valid payment method. The order was confirmed and added to the database correctly.
-
 
 Verdict ✅
 * This test passed without any issues, indicating that users can successfully checkout without creating an account.
@@ -301,6 +305,31 @@ Result 📝
 
 Verdict ✅
 *  This test was completed without bugs
+
+### Product CRUD Functionality
+
+Idea 🧠
+* A logged in Admin can go to the products section and Edit and/or delete products. They can also Add a product using the navbar.
+
+Test 🥽
+* as an admin, I will log in and navigate to the products section. I will attempt to edit and delete products. I will also navigate to the products section and click the "Product Management" button on the navbar. I will fill out the form and add a new product.
+
+Result 📝
+* As an Admin, I was able to successfully add a new product using the "Product Management" button on the navbar.  I was also able to edit and delete products in the products section.
+
+Verdict ✅
+*  Both tests passed without any issues, indicating that the logged-in admin can successfully edit, delete, and add products.
+
+
+[![Products Page CRUD]](static/images/CRUD/CRUD.png)
+
+[![Product View CRUD]](static/images/CRUD/Product-View-CRUD.png)
+
+[![Navbar]](static/images/CRUD/navbar-CRUD.png)
+
+[![Product management]](static/images/CRUD/Product-Management.png)
+
+[![Checkout Page CRUD]](static/images/CRUD/Checkout-CRUD.png)
 
 
 ## Validator Testing
