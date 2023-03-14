@@ -261,6 +261,7 @@ Test 🥽
 
 Result 📝
 * I was able to select items at random and add them to the basket without signing in. I then proceeded to checkout and completed the payment process using a valid payment method. The order was confirmed and added to the database correctly.
+[![Succesful Checkout](static/images/wireframe.png)](static/images/test/Success-Shaq-Payment.png)
 
 Verdict ✅
 * This test passed without any issues, indicating that users can successfully checkout without creating an account.
@@ -283,6 +284,10 @@ Verdict ✅
 ## Validator Testing
 
 As a developer, I know how important it is to run tests and ensure that my HTML, CSS, and JavaScript code is error-free and meets industry standards. That's why I always make sure to run my code through validators before launching a project. Validators are tools that check the syntax and structure of my code to make sure it is correct and follows best practices. For HTML and CSS, I use the W3C Validator, which checks my code against the latest standards and guidelines. For JavaScript, I use the JSLint and JSHint validators, which help me catch common mistakes and ensure that my code is clean and efficient. By running my code through these validators, I can be confident that my projects will be reliable and well-built, and that they will work seamlessly on any device or browser. Overall, running tests and using validators is an essential step in the development process and helps me deliver high-quality projects to my clients.
+
+[![Sketchy HTML Validation](static/images/wireframe.png)](static/images/Validation/HTML-Valid.png)
+[![Sketchy Base CSS Validation](static/images/wireframe.png)](static/images/Validation/Base-css-valid.png)
+[![Sketchy Profile CSS Validation](static/images/wireframe.png)](static/images/Validation/CSS-Valid-prof.png)
 
 # Deployment
 
