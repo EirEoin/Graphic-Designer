@@ -193,7 +193,7 @@ A feature we may have in the future would be to make the purchasing process as s
 ## Authentication
 
 Idea 🧠
-* To see if my new user sign up and user authentication is working correctly 
+* When new users visit and want to make an account, we want to give them no reason not to come back and visit again. So I went to see if my new user sign up and user authentication is working correctly 
 
 Test 🥽
 * I will sign up for a new account and verify my account via email. 
@@ -210,7 +210,7 @@ Verdict ✅
 ## Contact Form
 
 Idea 🧠
-* To make sure my contact page and form is working correctly and smoothly
+* I made a Contact page on Sketchy Designs, this is where you can fill in your information and contact Sketchy Designs by writing your message the descriptions box
 
 Test 🥽
 * To test the contact form, I will fill out the form with valid data and click the "Submit" button.
@@ -226,7 +226,7 @@ Verdict ✅
 ## Work Gallery 
 
 Idea 🧠
-* I made a gallery page that has previous work of ours displayed in a slideshow with clickable buttons right and left.
+* Sketchy Designs has a gallery page that has previous work of ours displayed in a slideshow with clickable buttons right and left.
 
 Test 🥽
 * To test this feature, I will open the gallery page and ensure that the slideshow displays correctly. Then, I will click the right and left buttons to navigate through the slideshow and ensure that the images change accordingly and are loading correctly.
@@ -241,7 +241,7 @@ Verdict ✅
 ##  Clients Page
 
 Idea 🧠
-* Sketchy Designs has a page on the website you can visit called 'clients' and there you can view all the collaborations from the past and even ones to look forward to in the future 
+* Sketchy Designs has a page on the website you can visit called 'clients' and there you can view all the collaborations from the past and even ones to look forward to in the future. I wanted to make sure this was working right. 
 
 Test 🥽
 * To test the Clients page, I navigated to the page and checked if all past and upcoming collaborations were displayed correctly. I also checked if the page was responsive and user-friendly on different devices.
@@ -254,16 +254,30 @@ Verdict ✅
 * This test passed with no bugs, and the Clients page worked as expected.
 
 
-
+## Checkout with and w/out Account
 
 Test 🥽
-* 
+* To test if users can checkout successfully without creating an account, I will select items at random and proceed to checkout without signing in.
 
 Result 📝
-* 
+* I was able to select items at random and add them to the basket without signing in. I then proceeded to checkout and completed the payment process using a valid payment method. The order was confirmed and added to the database correctly.
 
 Verdict ✅
-* 
+* This test passed without any issues, indicating that users can successfully checkout without creating an account.
+
+### Without an Account
+
+Idea 🧠
+* With a logged in user, i want to make sure the user can view previous orders through the users account page.
+
+Test 🥽
+* To test this i created a new user and proceeded to add items to the basket and complete the checkout process.
+
+Result 📝
+* The checkout process was successful and upon completion i checked the users account page i could see the order history details.
+
+Verdict ✅
+*  This test was completed without bugs
 
 
 ## Validator Testing
