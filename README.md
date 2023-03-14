@@ -184,7 +184,89 @@ A feature we may have in the future would be to make the purchasing process as s
 
 # E-Commerce Business Model
 
-# Validator Testing
+
+
+# Testing 
+
+
+
+## Authentication
+
+Idea 🧠
+* To see if my new user sign up and user authentication is working correctly 
+
+Test 🥽
+* I will sign up for a new account and verify my account via email. 
+
+Result 📝
+*  Upon creating a new user account and verifying the account through the email link, I was able to successfully log in to the application with the newly created credentials.
+
+Verdict ✅
+*  This test completed as expected without any issues, indicating that the new user sign up and authentication feature is working correctly.
+
+
+
+
+## Contact Form
+
+Idea 🧠
+* To make sure my contact page and form is working correctly and smoothly
+
+Test 🥽
+* To test the contact form, I will fill out the form with valid data and click the "Submit" button.
+
+Result 📝
+* The form was submitted successfully, and I received a confirmation email with the details that I entered.
+
+Verdict ✅
+* The test completed as expected without any issues. 
+
+
+
+## Work Gallery 
+
+Idea 🧠
+* I made a gallery page that has previous work of ours displayed in a slideshow with clickable buttons right and left.
+
+Test 🥽
+* To test this feature, I will open the gallery page and ensure that the slideshow displays correctly. Then, I will click the right and left buttons to navigate through the slideshow and ensure that the images change accordingly and are loading correctly.
+
+Result 📝
+*  The gallery page loaded correctly and the slideshow displayed the previous work images as expected. Clicking the right and left buttons changed the images displayed in the slideshow as expected.
+
+Verdict ✅
+* This test passed without any issues, indicating that the gallery page with the slideshow and clickable buttons is working correctly.
+
+
+##  Clients Page
+
+Idea 🧠
+* Sketchy Designs has a page on the website you can visit called 'clients' and there you can view all the collaborations from the past and even ones to look forward to in the future 
+
+Test 🥽
+* To test the Clients page, I navigated to the page and checked if all past and upcoming collaborations were displayed correctly. I also checked if the page was responsive and user-friendly on different devices.
+
+
+Result 📝
+* All past and upcoming collaborations were displayed correctly, and the page was responsive and user-friendly on different devices. The collaborations were sorted and displayed in a clear and organized manner.
+
+Verdict ✅
+* This test passed with no bugs, and the Clients page worked as expected.
+
+
+
+
+Test 🥽
+* 
+
+Result 📝
+* 
+
+Verdict ✅
+* 
+
+
+## Validator Testing
 
 As a developer, I know how important it is to run tests and ensure that my HTML, CSS, and JavaScript code is error-free and meets industry standards. That's why I always make sure to run my code through validators before launching a project. Validators are tools that check the syntax and structure of my code to make sure it is correct and follows best practices. For HTML and CSS, I use the W3C Validator, which checks my code against the latest standards and guidelines. For JavaScript, I use the JSLint and JSHint validators, which help me catch common mistakes and ensure that my code is clean and efficient. By running my code through these validators, I can be confident that my projects will be reliable and well-built, and that they will work seamlessly on any device or browser. Overall, running tests and using validators is an essential step in the development process and helps me deliver high-quality projects to my clients.
 
@@ -216,12 +298,14 @@ Create a new folder within the root dir called env.py. Within this file add the 
 
 import os
 
-os.environ["SECRET_KEY"] = "[Your Secret Key]"
-os.environ["DEV"] = "1"
-os.environ["HOSTNAME"] = "0.0.0.0"
-os.environ["STRIPE_PUBLIC_KEY"] = "[Your Stripe Key]"
-os.environ["STRIPE_SECRET_KEY"] = "[Your Stripe Secret Key]"
-os.environ["DATABASE_URL"] = "[Your DB URL]"
+| Variable | Value |
+| --- | --- |
+|os.environ["SECRET_KEY"] | [Your Secret Key] |
+|os.environ["DEV"] | 1 |
+|os.environ["HOSTNAME"] | 0.0.0.0 |
+|os.environ["STRIPE_PUBLIC_KEY"] | [Your Stripe Key] |
+|os.environ["STRIPE_SECRET_KEY"]  | [Your Stripe Secret Key] |
+|os.environ["DATABASE_URL"] | [Your DB URL] |
 
 
 ## Database setup 
