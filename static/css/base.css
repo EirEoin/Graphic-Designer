@@ -191,9 +191,6 @@ a.category-badge > span.badge:hover {
 
 /* -- Clients  -- */
 
-clients-container {
-    padding-top: 100px; /* Adjust the value as needed */
-  }
 /* -- MailChimp -- */
 
 #mc_embed_signup {
