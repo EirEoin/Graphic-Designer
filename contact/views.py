@@ -6,7 +6,7 @@ def contact(request):
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
-            # Do something with the valid form data
+            print("IT WORKS")
             pass
     else:
         form = ContactForm()
