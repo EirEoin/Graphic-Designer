@@ -1,17 +1,8 @@
 # Sketchy Designs
 
 
-Welcome to my Graphic Design online store, Sketchy Designs! It is a fictional team of creative professionals dedicated to providing high-quality design services to individuals and businesses. We are also B2C designed and implemented with Django, Python, HTML, and CSS. It aims to provide an easy-to-use interface where customers can browse all our items. The site offers account sign up and once signed in, users can save an address to their profile for easy and convenient checkout. You can also check on previous order history if you have any once signed in. We also offer an email sign up for news on the future releases. It also has a Gallery of previous work to flick through and get an idea of what Sketchy Designs is about. 
-
- Sketchy Designs offers a wide range of design options, from logo and branding design to marketing materials and website design. We pride ourselves on our ability to understand our customers' unique needs and deliver custom solutions that exceed their expectations. Our team of talented designers has the skills and experience to bring your vision to life, whether you are a small start-up or a well-established company. Thank you for considering us for your design needs. We look forward to working with you!
-
-I have always had a passion for graphic design and music, and I love the way that they intersect and influence each other. As a designer, I am constantly inspired by the creativity and artistry of the music industry, and I enjoy using my skills to help artists and music festivals bring their visions to life. I also believe in the power of music to bring people together and to strengthen communities. Through my work, I have had the opportunity to connect with people from all walks of life and to use my design skills to make a positive impact on their communities. I love the cultural ties that knit together the worlds of graphic design and music, and I am grateful to be able to contribute to this vibrant and dynamic community. Overall, I am passionate about my work because it allows me to use my creative skills to make a difference in the world and to connect with others through art and design.
-
-
-
-I am particularly excited about the near future, as I have a number of exciting projects on the horizon. I am currently working on a collaboration with a local clothing brand, which has been a lot of fun and has allowed me to stretch my creative muscles. We are creating a new line of graphic t-shirts and sweatshirts, and I am really excited to see the final products hit the market.
-I am thrilled with the direction my career as a graphic designer is heading and am looking forward to all the opportunities and challenges that the future holds. So, I am very excited about it.
-
+Welcome to my Graphic Design online store, Sketchy Designs! It is a fictional team of creative professionals dedicated to providing high-quality design services and products to individuals and businesses. It is also B2C designed and implemented with Django, Python, HTML, and CSS. It aims to provide an easy-to-use interface where customers can browse all our items. A lot of the Artwork and Designs on the website is actually my own so please, 
+enjoy! 
 
 
 # UX
@@ -118,23 +109,6 @@ In addition to general inquiries, the contact page also allows users to pitch id
 * Visitors can create an account on the website, which will remember their details for future visits and allow them to easily review their order history.
 * Customers can also save items to their cart or wish list for future reference.
 
-## Account & Order tracking
-Sketchy Designs offers a user registration feature that allows customers to create a personal account on our platform. This allows them to easily track their orders, view their purchase history, and access their account information. To register, customers simply need to provide their email address and create a password.
-
-Once they have registered, customers can sign in to their account using their email address and password. This gives them access to their account dashboard, where they can view and manage their orders, track their delivery status, and update their account information.
-Our track orders feature allows customers to easily stay up-to-date on the progress of their design projects. Customers can view the status of their orders, including whether they are in the design phase, review phase, or have been completed. They can also view any comments or feedback left by our team, as well as any attachments or files related to their project.
-
-
-
-
-Sketchy Designs
-Overall, our user registration, sign in, and track orders features provide customers with a convenient and easy-to-use platform for managing their design projects with our team.
-I am extremely happy with the growth and progress I have made over the years. I have had the opportunity to work with a wide range of clients, from small businesses to larger corporations, and have honed my skills and developed my style along the way.
-
-
-I am particularly excited about the near future, as I have a number of exciting projects on the horizon. I am currently working on a collaboration with a local clothing brand, which has been a lot of fun and has allowed me to stretch my creative muscles. We are creating a new line of graphic t-shirts and sweatshirts, and I am really excited to see the final products hit the market.
-I am thrilled with the direction my career as a graphic designer is heading and am looking forward to all the opportunities and challenges that the future holds. So, I am very excited about it.
-
 
 # Technology Used
 
@@ -177,7 +151,7 @@ When using SEO on this project i learned a few things. I learned The importance 
 The role of on-page optimization: On-page optimization refers to the process of optimizing the content and structure of your website to make it more search engine friendly.
 The value of high-quality content: High-quality content is an important factor in SEO, as search engines favor websites that provide valuable and relevant information to users. By creating high-quality content that is relevant to your target audience, you can improve your search engine rankings and attract more visitors to your website.
 
-# E-Commerce Approach
+# Approach
 
 Our B2C e-commerce approach to our graphic design webstore focuses on creating a user-friendly and visually appealing platform that is easy for customers to browse and purchase design services from. This would involve designing an intuitive website that showcases the different design services available, such as branding, marketing materials, and packaging, as well as providing clear and concise information about each service's features, benefits, and pricing.
 
@@ -194,11 +168,51 @@ A feature we may have in the future would be to make the purchasing process as s
 
 # E-Commerce Business Model
 
+* B2C - Online Retail Store                  
+* Single Payment
+* Selling Products
 
+with these in mind we have to have a few other things too.
+- Authentication  
+- Easy Payment (STRIPE)  
+- Cart  
+- Product Description  
+- Social Media Influence 
+
+
+With Sketchy Designs I am taking a social media marketing approach using Instagram, Facebook and possibly TikTok.
+Our Goals would be to find the right creative audience to grow and nurture our designs with.
+Any type of Advertisement is going to be Low Cost.
+Because of the Limits of how much an artist can produce, The price of work will grow with the demand. One thing we will never do as a business is under-perform. Long Waiting times or bad quality products ruin reputation. Customer Satisfaction is our priority.
+
+* Payments
+
+Payments will be securely processed using Stripe. To ensure secure payments I needed to implement proper security protocols such as an SSL certificate. An SSL (Secure Sockets Layer) certificate is a digital certificate that provides a secure, encrypted connection between a web server and a web browser. It ensures that data transmitted between the two is private and secure.
+
+To attract Consumers to my platform I will need to implement effective marketing strategies such as SEO, organic Social Media Marketing, some low cost paid Advertising and E-Mail marketing using MailChimp. 
+Hopefully this Drives Traffic to Sketchy Designs and Increases Sales.
+
+## Plan
+
+### User
+- Username
+- Email
+- Password
+
+
+### Product
+- Name 
+- Image
+- Description
+- Price
+
+### Order 
+- User 
+- Total
+- Name
+- Address 
 
 # Testing 
-
-
 
 ## Authentication
 
@@ -348,19 +362,19 @@ Verdict ✅
 * Solution ✅: The issue was identified by reviewing the Stripe API documentation and making adjustments to the API integration. The issue was fixed by ensuring the API key was correctly configured and that all necessary parameters were being passed to Stripe.
 
 
-* Problem :
-* Cause : 
-* Solution : 
+* Problem :  I was getting an error calling for Uncaught TypeError: Cannot read properties of undefined.
+* Cause : This error is usually caused when the object on which a property or method is being accessed is not defined or null.
+* Solution ✅: In this case, it means that the slides[slideIndex-1] is undefined, which can happen if slideIndex is out of range, so I just brought it closer to the undefined error.
 
 
 * Problem :
 * Cause : 
-* Solution : 
+* Solution ✅: 
 
 
 * Problem :
 * Cause : 
-* Solution : 
+* Solution ✅: 
 
 ## Validator Testing
 
