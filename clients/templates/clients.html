@@ -1,15 +1,21 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Clients</h1>
-<ul>
-{% for client in clients %}
-    <li>
-        <h2>{{ client.name }}</h2>
-        <img src="{{ client.image.url }}" alt="{{ client.name }}">
-        <p>{{ client.description }}</p>
-        <p>Location: {{ client.location }}</p>
-    </li>
-{% endfor %}
-</ul>
+  <div class="clients-container">
+    <h1>Clients</h1>
+    <ul class="clients-list">
+      {% for client in clients %}
+        <li class="client-item">
+          <div class="client-image">
+            <img src="{{ client.image.url }}" alt="{{ client.name }}">
+          </div>
+          <div class="client-details">
+            <h2 class="client-name">{{ client.name }}</h2>
+            <p class="client-description">{{ client.description }}</p>
+            <p class="client-location"><strong>Location:</strong> {{ client.location }}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 {% endblock %}
