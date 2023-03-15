@@ -140,6 +140,8 @@ a.category-badge > span.badge:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    height: calc(100vh - 50px); /* Subtract the height of the navbar */
   }
   
   .contact-form {
