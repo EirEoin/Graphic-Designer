@@ -10,11 +10,13 @@ body {
     font-family: 'Lato';
 }
 
-.toast {
-    top: 100px;
+.toast-body {
+    position: fixed;
+    top: 80px; 
     left: 20px;
+    z-index: 9999;
   }
-  
+
 /* from Bulma */
 .icon {
     align-items: center;
