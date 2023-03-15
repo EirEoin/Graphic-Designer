@@ -166,8 +166,10 @@ I am thrilled with the direction my career as a graphic designer is heading and 
 Approaching this project, Sketchy Designs, there was a lot to. It was best I broke breaking it down into smaller manageable tasks and working on them incrementally. I created a project board with user stories attached to the GitHub repository to help keep track of the tasks and ensure that I was on track to meet the project goals. 
 This approach allowed me to adapt to changes and make adjustments as needed, ensuring that the project was delivered on time and with the desired functionality. With this approach, I was able to prioritize what's important at different times to deliver a high-quality product that met the needs of the user. As this project was being built I even found myself adding to the project board and getting inspired with ideas on how this project could develop. 
 
-* [[Agile Process]](static/images/Agile/Agile-Process.png)
-* [[Agile Project Board]](static/images/Agile/Agile-Project-Board.png)
+<img src="static/images/Agile/Agile-Process.png" width="800">
+
+
+<img src="static/images/Agile/Agile-Project-Board.png" width="800">
 
 # SEO Implementation
 
