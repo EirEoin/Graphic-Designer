@@ -7,4 +7,4 @@ from .models import PreviousWork
 def work(request):
     gallery = PreviousWork.objects.all()
     context = {}
-    return render(request, 'work.html', context=context)
+    return render(request, 'work.html', {'gallery': gallery})
