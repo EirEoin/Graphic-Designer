@@ -323,13 +323,13 @@ Verdict ✅
 *  Both tests passed without any issues, indicating that the logged-in admin can successfully edit, delete, and add products.
 
 
+<img src="static/images/CRUD/Product-Management.png" width="800">
+
 [![Products Page CRUD]](static/images/CRUD/CRUD.png)
 
 [![Product View CRUD]](static/images/CRUD/Product-View-CRUD.png)
 
 [![Navbar]](static/images/CRUD/navbar-CRUD.png)
-
-[![Product management]](static/images/CRUD/Product-Management.png)
 
 [![Checkout Page CRUD]](static/images/CRUD/Checkout-CRUD.png)
 
