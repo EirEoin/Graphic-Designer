@@ -1,7 +1,6 @@
 let slideIndex = 1;
 
-window.onload = function() {
-  function showSlides(n) {
+window.onload = function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("demo");
@@ -20,7 +19,7 @@ window.onload = function() {
   }
   
   showSlides(slideIndex);
-}
+
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
