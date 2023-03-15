@@ -1,7 +1,7 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-window.onload = function showSlides(n) {
+function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("mySlides");
     let dots = document.getElementsByClassName("demo");
