@@ -1,4 +1,5 @@
 let slideIndex = 1;
+showSlides(slideIndex);
 
 window.onload = function showSlides(n) {
     let i;
@@ -17,8 +18,7 @@ window.onload = function showSlides(n) {
     dots[slideIndex-1].className += " active";
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
-  
-function showSlides(slideIndex);
+
 
 
 function plusSlides(n) {
