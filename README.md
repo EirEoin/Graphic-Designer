@@ -274,7 +274,7 @@ Result 📝
 Verdict ✅
 * This test passed without any issues, indicating that users can successfully checkout without creating an account.
 
-<img src="static/images/tests/Non-user-checkout" width="800">
+<img src="static/images/tests/Non-user-checkout.png" width="800">
  
 ### Without an Account
 
