@@ -18,7 +18,7 @@ window.onload = function showSlides(n) {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
   
-  showSlides(slideIndex);
+function showSlides(slideIndex);
 
 
 function plusSlides(n) {
