@@ -229,7 +229,7 @@ Verdict ✅
 *  This test completed as expected without any issues, indicating that the new user sign up and authentication feature is working correctly.
 
 
-
+---
 
 ## Contact Form
 
@@ -245,7 +245,7 @@ Result 📝
 Verdict ✅
 * The test completed as expected without any issues. 
 
-
+---
 
 ## Work Gallery 
 
@@ -261,6 +261,7 @@ Result 📝
 Verdict ✅
 * This test passed without any issues, indicating that the gallery page with the slideshow and clickable buttons is working correctly.
 
+---
 
 ##  Clients Page
 
@@ -276,6 +277,7 @@ Result 📝
 Verdict ✅
 * This test passed with no bugs, and the Clients page worked as expected.
 
+---
 
 ## Checkout with and w/out Account
 
@@ -308,6 +310,8 @@ Verdict ✅
 * [[Succesful Webhooks]](static/images/tests/Success-Shaq-Payment.png)
 * [[More Succesful Webhooks]](static/images/tests/WH-Tests.png)
 
+---
+
 ### Responsiveness
 
 Idea 🧠
@@ -321,6 +325,8 @@ Result 📝
 
 Verdict ✅
 *  This test was completed without bugs
+
+---
 
 ### Product CRUD Functionality
 
@@ -347,6 +353,7 @@ Verdict ✅
 
 [![Checkout Page CRUD]](static/images/CRUD/Checkout-CRUD.png)
 
+---
 
 # Bugs 🪲
 
@@ -355,27 +362,30 @@ Verdict ✅
 * Why : It was not configured correctly.
 * Solution ✅: check the configuration settings within the application to ensure that the email address being used is correct and that the email sending functionality is properly configured
 
-
+---
 
 * Problem : Users cannot successfully complete the checkout process and receive an error message.
 * Cause : There is a bug in the Stripe API integration.
 * Solution ✅: The issue was identified by reviewing the Stripe API documentation and making adjustments to the API integration. The issue was fixed by ensuring the API key was correctly configured and that all necessary parameters were being passed to Stripe.
 
+---
 
 * Problem :  I was getting an error calling for Uncaught TypeError: Cannot read properties of undefined.
 * Cause : This error is usually caused when the object on which a property or method is being accessed is not defined or null.
 * Solution ✅: In this case, it means that the slides[slideIndex-1] is undefined, which can happen if slideIndex is out of range, so I just brought it closer to the undefined error.
 
+---
 
 * Problem :
 * Cause : 
 * Solution ✅: 
 
+---
 
 * Problem :
 * Cause : 
 * Solution ✅: 
-
+---
 ## Validator Testing
 
 As a developer, I know how important it is to run tests and ensure that my HTML, CSS, and JavaScript code is error-free and meets industry standards. That's why I always make sure to run my code through validators before launching a project. Validators are tools that check the syntax and structure of my code to make sure it is correct and follows best practices. For HTML and CSS, I use the W3C Validator, which checks my code against the latest standards and guidelines. For JavaScript, I use the JSLint and JSHint validators, which help me catch common mistakes and ensure that my code is clean and efficient. By running my code through these validators, I can be confident that my projects will be reliable and well-built, and that they will work seamlessly on any device or browser. Overall, running tests and using validators is an essential step in the development process and helps me deliver high-quality projects to my clients.
@@ -383,6 +393,8 @@ As a developer, I know how important it is to run tests and ensure that my HTML,
 [![Sketchy HTML Validation]](static/images/Validation/HTML-Valid.png)
 [![Sketchy Base CSS Validation]](static/images/Validation/Base-css-valid.png)
 [![Sketchy Profile CSS Validation]](static/images/Validation/CSS-Valid-prof.png)
+
+---
 
 # Deployment
 
@@ -412,6 +424,8 @@ Create a new folder within the root dir called env.py. Within this file add the 
 
 import os
 
+---
+
 | Variable | Value |
 | --- | --- |
 |os.environ["SECRET_KEY"] | [Your Secret Key] |
@@ -421,6 +435,7 @@ import os
 |os.environ["STRIPE_SECRET_KEY"]  | [Your Stripe Secret Key] |
 |os.environ["DATABASE_URL"] | [Your DB URL] |
 
+---
 
 ## Database setup 
 
@@ -440,6 +455,8 @@ If everything has been correctly configure you should not get a message giving y
 Next close the server in your terminal using ctrl+c (cmd+c on mac) and run the following commands to populate the database
 
 * python manage.py loaddata 
+
+---
 
 # Deploying to Heroku 
 
