@@ -334,6 +334,34 @@ Verdict ✅
 [![Checkout Page CRUD]](static/images/CRUD/Checkout-CRUD.png)
 
 
+# Bugs 🪲
+
+
+* Problem : User Authentication Emails never received
+* Why : It was not configured correctly.
+* Solution ✅: check the configuration settings within the application to ensure that the email address being used is correct and that the email sending functionality is properly configured
+
+
+
+* Problem : Users cannot successfully complete the checkout process and receive an error message.
+* Cause : There is a bug in the Stripe API integration.
+* Solution ✅: The issue was identified by reviewing the Stripe API documentation and making adjustments to the API integration. The issue was fixed by ensuring the API key was correctly configured and that all necessary parameters were being passed to Stripe.
+
+
+* Problem :
+* Cause : 
+* Solution : 
+
+
+* Problem :
+* Cause : 
+* Solution : 
+
+
+* Problem :
+* Cause : 
+* Solution : 
+
 ## Validator Testing
 
 As a developer, I know how important it is to run tests and ensure that my HTML, CSS, and JavaScript code is error-free and meets industry standards. That's why I always make sure to run my code through validators before launching a project. Validators are tools that check the syntax and structure of my code to make sure it is correct and follows best practices. For HTML and CSS, I use the W3C Validator, which checks my code against the latest standards and guidelines. For JavaScript, I use the JSLint and JSHint validators, which help me catch common mistakes and ensure that my code is clean and efficient. By running my code through these validators, I can be confident that my projects will be reliable and well-built, and that they will work seamlessly on any device or browser. Overall, running tests and using validators is an essential step in the development process and helps me deliver high-quality projects to my clients.
