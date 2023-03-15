@@ -1,13 +1,4 @@
 let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
 window.onload = function() {
   function showSlides(n) {
@@ -28,5 +19,13 @@ window.onload = function() {
     captionText.innerHTML = dots[slideIndex-1].alt;
   }
   
-  showSlides(1);
+  showSlides(slideIndex);
+}
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
