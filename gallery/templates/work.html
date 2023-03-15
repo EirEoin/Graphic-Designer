@@ -25,7 +25,7 @@
             {% for previous_work in gallery %}
             <div class="mySlides">
                 <div class="numbertext"> {{forloop.counter}} / {{previous_work.count}}</div>
-                <img src="{{ previous_work.image.url }}" height="50%" width="100%">
+                <img class="demo" src="{{ previous_work.image.url }}" height="50%" width="100%">
             </div>
             {% endfor %}
 
