@@ -1,3 +1,4 @@
 user-agent: *
 Disallow: /accounts/
 Disallow: /bag/
+Sitemap: https://sketchydesigns.herokuapp.com/sitemap.xml
