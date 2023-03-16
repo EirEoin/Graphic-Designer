@@ -376,15 +376,15 @@ Verdict ✅
 
 ---
 
-* Problem :
-* Cause : 
-* Solution ✅: 
+* Problem : Images when uploaded would not be visible.
+* Cause : When the S3 bucket was enabled static files were not being served correctly.
+* Solution ✅: I created the correct pathways as the image url was directing somewhere else.
 
 ---
 
-* Problem :
-* Cause : 
-* Solution ✅: 
+* Problem : Items added to the shopping bag could be put into the negative and hypothetically then i would owe the user money.
+* Cause : There was no quantity control in place in my add to bags function. 
+* Solution ✅: I put an if elif statemenet at the start of my bag's views. 
 ---
 ## Validator Testing
 
