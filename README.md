@@ -506,6 +506,6 @@ All images & content used for this site are for educational purposes only.
 
 ## Acknowledgements 
 
-I'd like to give a special thanks to the coding institute E-Commerce boutique ADO tutorial for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition. I'd also like to thank everyone at the coding-institute for helping me along the away!
-Online forms like W3 schools helped alot too. 
+I'd like to give a special thanks to the coding institute tutorials and for providing valuable guidance and resources during the development of this project. Their expertise and support were invaluable in helping me to bring this project to fruition.
+I'd also like to sat thanks online forms like W3 schools and StackOverflow, they helped alot too. 
 
